@@ -455,7 +455,7 @@ function initcalendar() {
         var barSearch = document.getElementById('barSync');
         barSearch.insertAdjacentHTML(
             'afterend',
-            '<div id="calendar"class="toolbar__item ariaLabel" aria-label="日历" ></div>'
+            '<div id="calendar"class="toolbar__item ariaLabel" aria-label="日历" style="display:none;"></div>'
         );
         let calendarIcon = document.getElementById('calendar');
 
