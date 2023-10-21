@@ -123,14 +123,14 @@
 
 
 /* ------代码语言栏居右--------- */
-/* .b3-typography .code-block .protyle-action,
+.b3-typography .code-block .protyle-action,
 .protyle-wysiwyg [data-node-id].code-block .protyle-action {
     left: auto;
     right: 4px;
-} */
+}
 
 /* ---------mac三点--------- */
-/* .code-block::after {
+.code-block::after {
     content: ' ';
     position: absolute;
     background: #fa625c;
@@ -141,7 +141,7 @@
     height: 12px;
     width: 12px;
     z-index: 1;
-} */
+}
 
 
 
